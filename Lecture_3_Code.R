@@ -1,5 +1,0 @@
-library(tidyverse)
-library(mdsr)
-head (CIACountries)
-g <- ggplot(data = CIACountries, aes(y=gdp, x = educ))
-g + geom_point()
